@@ -75,7 +75,7 @@
 							shadowFlip : 0.7,
 							circular: true,
 							autoplay: true,
-							interval: 6000
+							interval: 4000
 						} );
 						initEvents();
 					},
@@ -154,9 +154,9 @@
 
       <div class="glide__container" id="wiz-glide">
 		<div class="glide__arrows" data-glide-el="controls">
-			<a class="glide__arrow glide__arrow--prev" data-glide-dir="<">&#10094;</a>
-			<a class="glide__arrow glide__arrow--next" data-glide-dir=">">&#10095;</a>
-		  </div>
+			<a class="glide__arrow glide__arrow--prev" data-glide-dir="<" id="prev">&#10094;</a>
+			<a class="glide__arrow glide__arrow--next" data-glide-dir=">" id="next">&#10095;</a>
+		</div>
         <ul class="glide__slides">
           <li class="glide__slide" id="slide-1" data-slide="1">
             <div>
@@ -221,7 +221,6 @@
 
       </div>
 
-      
 
       <div class="glide__bullets" data-glide-el="controls[nav]">
         <a class="glide__bullet" data-slide="1" id="button-1">
@@ -256,7 +255,6 @@
 
     </div>
 <script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-36251023-1']);
   _gaq.push(['_setDomainName', 'jqueryscript.net']);
@@ -268,7 +266,18 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-
+</script>
+<script type="text/javascript">
+	window.onload = function(){
+  document.getElementById('slide-1').click();
+}
+setInterval(1000)
+window.onload = function(){
+    var button = document.getElementById('next');
+    setInterval(function(){
+        button.click();
+    },3000);  // this will make it click again every 1000 miliseconds
+};
 </script>
 		<p> Just some random text</p>
 		<p> Just some random text</p>
