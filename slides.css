@@ -266,7 +266,7 @@ position: relative;
 }
 
 .glide__arrows>* {
-  flex: 0 0 20%;
+  flex: 0 0 5%;
   display: block;
   text-align: center;
   display: block;
@@ -323,48 +323,48 @@ a.glide__bullet div {
 }
 
 #slide-2 {
-  left: 3%;
+  left: 7%;
   z-index: 200;
   transform: scale(1, 0.78);
 }
 
 #slide-3 {
-  left: 6%;
+  left: 14%;
   z-index: 300;
   transform: scale(1, 0.88);
 }
 
 #slide-4 {
-  left: 9%;
+  left: 21%;
   z-index: 400;
   transform: scale(1, 0.98);
 }
 
 #slide-5 {
-  left: 12%;
+  left: 28%;
   z-index: 1000;
 }
 
 #slide-6 {
-  right: 12%;
+  left: 35%;
   z-index: 500;
   transform: scale(1, 0.98);
 }
 
 #slide-7 {
-  right: 9%;
+  left: 42%;
   z-index: 400;
   transform: scale(1, 0.88);
 }
 
 #slide-8 {
-  right: 6%;
+  right: 8%;
   z-index: 300;
   transform: scale(1, 0.78);
 }
 
 #slide-9 {
-  right: 3%;
+  right: 4%;
   z-index: 200;
   transform: scale(1, 0.68);
 }
