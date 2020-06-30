@@ -323,36 +323,36 @@ a.glide__bullet div {
 }
 
 #slide-2 {
-  left: 7%;
+  left: 6%;
   z-index: 200;
   transform: scale(1, 0.78);
 }
 
 #slide-3 {
-  left: 14%;
+  left: 12%;
   z-index: 300;
   transform: scale(1, 0.88);
 }
 
 #slide-4 {
-  left: 21%;
+  left: 18%;
   z-index: 400;
   transform: scale(1, 0.98);
 }
 
 #slide-5 {
-  left: 28%;
+  left: 24%;
   z-index: 1000;
 }
 
 #slide-6 {
-  left: 35%;
+  left: 30%;
   z-index: 500;
   transform: scale(1, 0.98);
 }
 
 #slide-7 {
-  left: 42%;
+  left: 36%;
   z-index: 400;
   transform: scale(1, 0.88);
 }
