@@ -36,7 +36,7 @@ body {
 .glide__slides {
   position: absolute;
   width: 70%;
-  margin-left: 18%;
+  margin-left: 12%;
   margin-right: 12%;
   list-style: none;
   backface-visibility: hidden;
